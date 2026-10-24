@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="ميزان — صُنع 2026">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6f9ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<filter id="blur" filterUnits="userSpaceOnUse" x="-800" y="-400" width="2800" height="1100"><feGaussianBlur stdDeviation="50"/></filter>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0a3fa8" flood-opacity=".18"/></filter>
+</defs>
+<style>
+text{font-family:"Cairo","Segoe UI",Tahoma,Arial,sans-serif}
+.cloud{animation:cloud 22s linear infinite}.c1{animation-delay:-6s}.c2{animation-delay:-15s;animation-duration:27s}
+@keyframes cloud{0%{transform:translate(-420px,0)}50%{transform:translate(800px,-20px)}100%{transform:translate(1620px,0)}}
+.tile{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .8s cubic-bezier(.2,.9,.3,1.25) .2s forwards}
+@keyframes pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+.beam{transform-origin:512px 275px;animation:sway 4.5s ease-in-out infinite}
+.pl{animation:pl 4.5s ease-in-out infinite}.pr{animation:pr 4.5s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@keyframes pl{0%,100%{transform:translateY(18.5px)}50%{transform:translateY(-18.5px)}}
+@keyframes pr{0%,100%{transform:translateY(-18.5px)}50%{transform:translateY(18.5px)}}
+.fade{opacity:0;animation:fade .9s ease-out forwards}.t1{animation-delay:.6s}.t2{animation-delay:1s}.t3{animation-delay:1.4s}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.heart{transform-box:fill-box;transform-origin:center;animation:beat 1.4s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.25)}30%{transform:scale(1)}45%{transform:scale(1.18)}60%{transform:scale(1)}}
+.line{stroke-dasharray:300;stroke-dashoffset:300;animation:draw 1.2s ease-out 1.2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+</style>
+<rect width="1200" height="300" fill="url(#bg)"/>
+<g filter="url(#blur)">
+<ellipse class="cloud c1" cx="0" cy="120" rx="250" ry="90" fill="#0f6afd" fill-opacity=".3"/>
+<ellipse class="cloud c2" cx="0" cy="230" rx="280" ry="90" fill="#3d8bff" fill-opacity=".26"/>
+</g>
+<g class="tile"><rect x="550" y="22" width="100" height="100" rx="24" fill="#fff" stroke="#dbe7ff" stroke-width="2" filter="url(#sh)"/></g>
+<g class="tile"><g transform="translate(600,74) scale(.12) translate(-512,-494)">
+<rect x="270" y="732" width="486" height="56" rx="28" fill="#0f6afd"/><rect x="486" y="320" width="54" height="430" fill="#0f6afd"/>
+<g class="beam"><rect x="270" y="248" width="484" height="56" rx="28" fill="#0f6afd"/></g><circle cx="512" cy="275" r="74" fill="#0f6afd"/>
+<g class="pl"><path d="M300 372 L204 548 L396 548 Z" fill="none" stroke="#0f6afd" stroke-width="44" stroke-linejoin="round"/><path d="M166 562 L434 562 A134 100 0 0 1 166 562 Z" fill="#0f6afd"/></g><g class="pr"><path d="M724 372 L628 548 L820 548 Z" fill="none" stroke="#0f6afd" stroke-width="44" stroke-linejoin="round"/><path d="M590 562 L858 562 A134 100 0 0 1 590 562 Z" fill="#0f6afd"/></g></g></g>
+<text class="fade t1" x="600" y="172" text-anchor="middle" fill="#0b1f4d" font-size="34" font-weight="800" direction="rtl">ميـــــزان <tspan fill="#0f6afd" font-size="22" letter-spacing="6">| MIZAN</tspan></text>
+<line class="line" x1="450" y1="192" x2="750" y2="192" stroke="#0f6afd" stroke-width="2" stroke-linecap="round" stroke-opacity=".6"/>
+<g class="fade t2">
+<rect x="510" y="210" width="180" height="44" rx="22" fill="#0b1f4d"/>
+<text x="625" y="239" text-anchor="middle" fill="#fff" font-size="19" font-weight="800" direction="rtl">صُنع 2026</text>
+<g transform="translate(548,221)"><path class="heart" d="M12 21s-7.5-4.6-9.6-9.2C.8 8.2 2.9 4.5 6.6 4.5c2.1 0 3.6 1.1 4.4 2.5.8-1.4 2.3-2.5 4.4-2.5 3.7 0 5.8 3.7 4.2 7.3C19.5 16.4 12 21 12 21z" fill="#ef4444"/></g>
+</g>
+<text class="fade t3" x="600" y="282" text-anchor="middle" fill="#64748b" font-size="14" direction="rtl">جامعة طرابلس · كلية تقنية المعلومات · قسم تقنيات الإنترنت</text>
+</svg>

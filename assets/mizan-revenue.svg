@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="نموذج الإيرادات في ميزان: نسبة من كل استشارة مدفوعة، ونسبة ثابتة عن كل قضية رقمية مفتوحة">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f6f9ff"/></linearGradient>
+<filter id="blur" filterUnits="userSpaceOnUse" x="-800" y="-400" width="2800" height="1400"><feGaussianBlur stdDeviation="55"/></filter>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0a3fa8" flood-opacity=".12"/></filter>
+<radialGradient id="hubg" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#3d8bff"/><stop offset="1" stop-color="#0a4fd6"/></radialGradient>
+<path id="p1" d="M945 250 L690 250"/><path id="p2" d="M510 250 L255 250"/><path id="p3" d="M600 335 L600 420"/><path id="p4" d="M945 495 L720 495"/><path id="p5" d="M255 495 L480 495"/>
+</defs>
+<style>
+text{font-family:"Cairo","Segoe UI",Tahoma,Arial,sans-serif}
+.cloud{animation:cloud 24s linear infinite}.c2{animation-delay:-12s;animation-duration:28s}
+@keyframes cloud{0%{transform:translate(-420px,0)}100%{transform:translate(1620px,0)}}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .7s cubic-bezier(.2,.9,.3,1.25) forwards}
+@keyframes pop{from{opacity:0;transform:translateY(24px) scale(.85)}to{opacity:1;transform:none}}
+.a0{animation-delay:.1s}.a1{animation-delay:.4s}.a2{animation-delay:.7s}.a3{animation-delay:1s}.a4{animation-delay:1.3s}.a5{animation-delay:1.6s}.a6{animation-delay:1.9s}.a7{animation-delay:2.2s}.a8{animation-delay:2.5s}
+.flow{stroke-dasharray:10 14;animation:flow 1s linear infinite;opacity:.9}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+.r2{animation-delay:1.2s}
+@keyframes ring{0%{opacity:.5;transform:scale(1)}100%{opacity:0;transform:scale(1.7)}}
+.hub{transform-box:fill-box;transform-origin:center;animation:beat 2.4s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}12%{transform:scale(1.06)}24%{transform:scale(1)}}
+.hubbeam{transform-origin:512px 275px;animation:sway 4s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.bar{transform-box:fill-box;transform-origin:bottom;animation:grow 3.2s ease-in-out infinite}
+.b1{animation-delay:.2s}.b2{animation-delay:.4s}.b3{animation-delay:.6s}
+@keyframes grow{0%,100%{transform:scaleY(.55)}50%{transform:scaleY(1)}}
+.glow{animation:glow 1.6s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.25}50%{opacity:1}}
+.title{opacity:0;animation:fade .8s ease-out forwards}
+@keyframes fade{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+.paths{opacity:0;animation:fadein 1s ease-out 1.2s forwards}.movers{opacity:0;animation:fadein .6s ease-out 2.6s forwards}
+@keyframes fadein{to{opacity:1}}
+</style>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<g filter="url(#blur)"><ellipse class="cloud" cx="0" cy="160" rx="260" ry="110" fill="#0f6afd" fill-opacity=".22"/><ellipse class="cloud c2" cx="0" cy="470" rx="300" ry="110" fill="#3d8bff" fill-opacity=".2"/></g>
+<g class="title">
+<text x="600" y="62" text-anchor="middle" fill="#0b1f4d" font-size="34" font-weight="800" direction="rtl">كيف تحقق ميزان إيراداتها؟</text>
+<text x="600" y="96" text-anchor="middle" fill="#64748b" font-size="16" letter-spacing="3">REVENUE MODEL · COMMISSION BASED</text>
+</g>
+<g class="paths"><path id="q1" d="M945 250 L690 250" fill="none" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/><path d="M945 250 L690 250" fill="none" stroke="#0f6afd" stroke-width="3" stroke-linecap="round" class="flow "/><path id="q2" d="M510 250 L255 250" fill="none" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/><path d="M510 250 L255 250" fill="none" stroke="#0f6afd" stroke-width="3" stroke-linecap="round" class="flow "/><path id="q3" d="M600 335 L600 420" fill="none" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/><path d="M600 335 L600 420" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" class="flow "/><path id="q4" d="M945 495 L720 495" fill="none" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/><path d="M945 495 L720 495" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" class="flow "/><path id="q5" d="M255 495 L480 495" fill="none" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/><path d="M255 495 L480 495" fill="none" stroke="#64748b" stroke-width="3" stroke-linecap="round" class="flow "/></g>
+<g class="movers">
+<g opacity="1"><g><circle r="14" fill="#0f6afd" fill-opacity=".18"/><circle r="9" fill="#0f6afd"/><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" rotate="0"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="0.00s" repeatCount="indefinite"/></g><g><circle r="14" fill="#0f6afd" fill-opacity=".18"/><circle r="9" fill="#0f6afd"/><animateMotion dur="2.4s" begin="0.80s" repeatCount="indefinite" rotate="0"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="0.80s" repeatCount="indefinite"/></g><g><circle r="14" fill="#0f6afd" fill-opacity=".18"/><circle r="9" fill="#0f6afd"/><animateMotion dur="2.4s" begin="1.60s" repeatCount="indefinite" rotate="0"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="1.60s" repeatCount="indefinite"/></g></g>
+<g opacity="1"><g><circle r="14" fill="#0f6afd" fill-opacity=".18"/><circle r="9" fill="#0f6afd"/><animateMotion dur="2.4s" begin="1.20s" repeatCount="indefinite" rotate="0"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="1.20s" repeatCount="indefinite"/></g><g><circle r="14" fill="#0f6afd" fill-opacity=".18"/><circle r="9" fill="#0f6afd"/><animateMotion dur="2.4s" begin="2.00s" repeatCount="indefinite" rotate="0"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="2.00s" repeatCount="indefinite"/></g><g><circle r="14" fill="#0f6afd" fill-opacity=".18"/><circle r="9" fill="#0f6afd"/><animateMotion dur="2.4s" begin="2.80s" repeatCount="indefinite" rotate="0"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="2.80s" repeatCount="indefinite"/></g></g>
+<g opacity="1"><g><circle r="12" fill="#16a34a" fill-opacity=".18"/><circle r="7" fill="#16a34a"/><animateMotion dur="1.8s" begin="1.60s" repeatCount="indefinite" rotate="0"><mpath href="#p3"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.8s" begin="1.60s" repeatCount="indefinite"/></g><g><circle r="12" fill="#16a34a" fill-opacity=".18"/><circle r="7" fill="#16a34a"/><animateMotion dur="1.8s" begin="2.50s" repeatCount="indefinite" rotate="0"><mpath href="#p3"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.8s" begin="2.50s" repeatCount="indefinite"/></g></g>
+<g opacity="1"><g><circle r="12" fill="#16a34a" fill-opacity=".18"/><circle r="7" fill="#16a34a"/><animateMotion dur="2.2s" begin="0.40s" repeatCount="indefinite" rotate="0"><mpath href="#p4"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.2s" begin="0.40s" repeatCount="indefinite"/></g><g><circle r="12" fill="#16a34a" fill-opacity=".18"/><circle r="7" fill="#16a34a"/><animateMotion dur="2.2s" begin="1.50s" repeatCount="indefinite" rotate="0"><mpath href="#p4"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.2s" begin="1.50s" repeatCount="indefinite"/></g></g>
+<g opacity="1"><g><circle r="11" fill="#64748b" fill-opacity=".18"/><circle r="6" fill="#64748b"/><animateMotion dur="2.6s" begin="0.90s" repeatCount="indefinite" rotate="0"><mpath href="#p5"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="0.90s" repeatCount="indefinite"/></g><g><circle r="11" fill="#64748b" fill-opacity=".18"/><circle r="6" fill="#64748b"/><animateMotion dur="2.6s" begin="2.20s" repeatCount="indefinite" rotate="0"><mpath href="#p5"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="2.20s" repeatCount="indefinite"/></g></g>
+</g>
+<g class="pop a1"><rect x="945.0" y="175.0" width="210" height="150" rx="22" fill="#fff" stroke="#dbe7ff" stroke-width="2" filter="url(#sh)"/>
+<circle cx="1050" cy="219.0" r="27" fill="#eaf2ff"/><g transform="translate(1035.0,204.0) scale(1.25)" fill="none" stroke="#0f6afd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</g>
+<text x="1050" y="275.0" text-anchor="middle" fill="#0b1f4d" font-size="20" font-weight="800" direction="rtl">المواطن</text>
+<text x="1050" y="302.0" text-anchor="middle" fill="#64748b" font-size="14" direction="rtl">يدفع قيمة الاستشارة</text></g>
+<g class="pop a2"><rect x="45.0" y="175.0" width="210" height="150" rx="22" fill="#fff" stroke="#dbe7ff" stroke-width="2" filter="url(#sh)"/>
+<circle cx="150" cy="219.0" r="27" fill="#eaf2ff"/><g transform="translate(135.0,204.0) scale(1.25)" fill="none" stroke="#0f6afd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 12h.01" />
+  <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+  <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+  <rect width="20" height="14" x="2" y="6" rx="2" />
+</g>
+<text x="150" y="275.0" text-anchor="middle" fill="#0b1f4d" font-size="20" font-weight="800" direction="rtl">المحامي</text>
+<text x="150" y="302.0" text-anchor="middle" fill="#64748b" font-size="14" direction="rtl">يستلم أتعاب الاستشارة</text></g>
+<g class="pop a3"><rect x="945.0" y="420.0" width="210" height="150" rx="22" fill="#fff" stroke="#dbe7ff" stroke-width="2" filter="url(#sh)"/>
+<circle cx="1050" cy="464.0" r="27" fill="#eaf2ff"/><g transform="translate(1035.0,449.0) scale(1.25)" fill="none" stroke="#0f6afd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2" />
+</g>
+<text x="1050" y="520.0" text-anchor="middle" fill="#0b1f4d" font-size="20" font-weight="800" direction="rtl">قضية رقمية</text>
+<text x="1050" y="547.0" text-anchor="middle" fill="#64748b" font-size="14" direction="rtl">تُفتح على المنصة</text></g>
+<g class="pop a4"><rect x="45.0" y="420.0" width="210" height="150" rx="22" fill="#fff" stroke="#dbe7ff" stroke-width="2" filter="url(#sh)"/>
+<circle cx="150" cy="464.0" r="27" fill="#eaf2ff"/><g transform="translate(135.0,449.0) scale(1.25)" fill="none" stroke="#0f6afd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+  <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
+</g>
+<text x="150" y="520.0" text-anchor="middle" fill="#0b1f4d" font-size="20" font-weight="800" direction="rtl">دفع إلكتروني</text>
+<text x="150" y="547.0" text-anchor="middle" fill="#64748b" font-size="14" direction="rtl">عبر بوابة Plutu</text></g>
+<g class="pop a0">
+<circle class="ring" cx="600" cy="250" r="82" fill="none" stroke="#0f6afd" stroke-width="3"/>
+<circle class="ring r2" cx="600" cy="250" r="82" fill="none" stroke="#0f6afd" stroke-width="3"/>
+<g class="hub"><circle cx="600" cy="250" r="82" fill="url(#hubg)" filter="url(#sh)"/><g transform="translate(600,240) scale(0.1) translate(-512,-494)" fill="#fff">
+<rect x="270" y="732" width="486" height="56" rx="28"/><rect x="486" y="320" width="54" height="430"/>
+<g class="hubbeam"><rect x="270" y="248" width="484" height="56" rx="28"/></g><circle cx="512" cy="275" r="74"/>
+<path d="M300 372 L204 548 L396 548 Z" fill="none" stroke="#fff" stroke-width="44" stroke-linejoin="round"/><path d="M166 562 L434 562 A134 100 0 0 1 166 562 Z"/>
+<path d="M724 372 L628 548 L820 548 Z" fill="none" stroke="#fff" stroke-width="44" stroke-linejoin="round"/><path d="M590 562 L858 562 A134 100 0 0 1 590 562 Z"/></g>
+<text x="600" y="312" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">MIZAN</text></g>
+</g>
+<g class="pop a5"><rect x="480" y="425" width="240" height="140" rx="22" fill="#fff" stroke="#bbf7d0" stroke-width="2" filter="url(#sh)"/>
+<text x="600" y="462" text-anchor="middle" fill="#0b1f4d" font-size="19" font-weight="800" direction="rtl">إيرادات المنصة</text>
+<circle class="glow" cx="700" cy="446" r="6" fill="#16a34a"/>
+<rect class="bar b0" x="548" y="532" width="16" height="16" rx="4" fill="#0f6afd" fill-opacity="0.35"/><rect class="bar b1" x="574" y="522" width="16" height="26" rx="4" fill="#0f6afd" fill-opacity="0.55"/><rect class="bar b2" x="600" y="512" width="16" height="36" rx="4" fill="#0f6afd" fill-opacity="0.75"/><rect class="bar b3" x="626" y="500" width="16" height="48" rx="4" fill="#16a34a" fill-opacity="0.9500000000000001"/><g transform="translate(667.0,517.0) scale(1.0833333333333333)" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+  <path d="m15 9-6 6" />
+  <path d="M9 9h.01" />
+  <path d="M15 15h.01" />
+</g></g>
+<g class="pop a6"><rect x="735.0" y="198" width="166" height="34" rx="17" fill="#0f6afd" fill-opacity=".1" stroke="#0f6afd" stroke-opacity=".5"/><text x="818" y="221" text-anchor="middle" fill="#0f6afd" font-size="15" font-weight="700" direction="rtl">قيمة الاستشارة</text></g>
+<g class="pop a6"><rect x="304.5" y="198" width="157" height="34" rx="17" fill="#0f6afd" fill-opacity=".1" stroke="#0f6afd" stroke-opacity=".5"/><text x="383" y="221" text-anchor="middle" fill="#0f6afd" font-size="15" font-weight="700" direction="rtl">أتعاب المحامي</text></g>
+<g class="pop a7"><rect x="620.0" y="361" width="250" height="34" rx="17" fill="#16a34a" fill-opacity=".1" stroke="#16a34a" stroke-opacity=".5"/><text x="745" y="384" text-anchor="middle" fill="#16a34a" font-size="15" font-weight="700" direction="rtl">نسبة من كل استشارة مدفوعة</text></g>
+<g class="pop a8"><rect x="733.0" y="518" width="200" height="34" rx="17" fill="#16a34a" fill-opacity=".1" stroke="#16a34a" stroke-opacity=".5"/><text x="833" y="541" text-anchor="middle" fill="#16a34a" font-size="15" font-weight="700" direction="rtl">نسبة ثابتة لكل قضية</text></g>
+<g class="pop a8"><rect x="293.0" y="518" width="150" height="34" rx="17" fill="#0b1f4d" fill-opacity=".1" stroke="#0b1f4d" stroke-opacity=".5"/><text x="368" y="541" text-anchor="middle" fill="#0b1f4d" font-size="15" font-weight="700" direction="rtl">معاملات آمنة</text></g>
+</svg>
